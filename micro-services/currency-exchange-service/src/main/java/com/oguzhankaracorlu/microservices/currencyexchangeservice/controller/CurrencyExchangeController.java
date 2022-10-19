@@ -27,7 +27,7 @@ public class CurrencyExchangeController {
         if (currencyExchange == null) {
             throw new RuntimeException("Unable to find data for " + from + " to " + to);
         }
-        
+
         String port = environment.getProperty("local.server.port");
         currencyExchange.setEnvironment(port);
 
