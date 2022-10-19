@@ -16,7 +16,11 @@ public class CurrencyConversion {
     private BigDecimal amount;
     private BigDecimal totalCalculate;
 
-    public CurrencyConversion(Long id, String source, String target, String environment, BigDecimal conversionMultiple, BigDecimal amount, BigDecimal totalCalculate) {
+    public CurrencyConversion() {
+    }
+
+    public CurrencyConversion(Long id, String source, String target,
+                              BigDecimal amount, BigDecimal conversionMultiple, BigDecimal totalCalculate, String environment) {
         this.id = id;
         this.source = source;
         this.target = target;
