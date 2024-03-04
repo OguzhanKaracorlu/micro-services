@@ -4,7 +4,7 @@ This repository contains a collection of microservices built with various techno
 
 ## Overview
 
-Microservices architecture is an approach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API. These services are built around business capabilities and independently deployable by fully automated deployment machinery.
+Microservices architecture is an ap<proach to developing a single application as a suite of small services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API. These services are built around business capabilities and independently deployable by fully automated deployment machinery.
 
 ## Technologies Used
 
